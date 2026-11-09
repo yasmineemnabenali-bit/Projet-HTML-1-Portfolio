@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Portfolio de Yasmine</title>
+  </head>
+  <body>
+    <div class="page">
+    <header id="home">
+      <h1>Yasmine Ben Ali</h1>
+      <p>Développeuse web passionnée</p>
+      <nav>
+        <ul>
+          <li class="navigation"><a href="#home">Home</a></li>
+          <li class="navigation"><a href="#about">About</a></li>
+          <li class="navigation"><a href="#work">Work</a></li>
+          <li class="navigation"><a href="#resume">Resume</a></li>
+          <li class="navigation"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <h2>About</h2>
+        <img src="Portrait professionnel.jpg" alt="Portrait de Yasmine">
+        <p>Je suis une développeuse web passionnée par la création de sites web modernes et fonctionnels.</p>
+        <audio controls src="calme-en-mouvement.mp3">
+          Votre navigateur ne supporte pas l'audio.
+        </audio>
+      </section>
+
+      <section id="work">
+        <h2>Work</h2>
+
+        <article class="projet">
+          <h3>Projet 1</h3>
+          <p>Description du projet 1.</p>
+          <a href="projet1.html">Voir le projet</a>
+        </article>
+
+        <article class="projet">
+          <h3>Projet 2</h3>
+          <p>Description du projet 2.</p>
+          <video controls width="640">
+            <source src="Vidéo Portfolio.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+          </video>
+        </article>
+      </section>
+
+      <section id="resume">
+        <h2>Resume</h2>
+
+        <h3>Formation</h3>
+        <table>
+          <tr>
+            <th>Année</th>
+            <th>Diplôme / Formation</th>
+            <th>Établissement</th>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>MBA en Management et Marketing du Luxe et de la Mode</td>
+            <td>ESLSCA Paris</td>
+          </tr>
+        </table>
+
+        <h3>Compétences</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git et GitHub</li>
+        </ul>
+
+        <a href="cv.pdf">Télécharger mon CV</a>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+          <p>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+          </p>
+
+          <p>
+          <label for="email">E-mail :</label>
+          <input type="email" id="email" name="email" required>
+          </p>
+
+         <p><label for="sujet">Sujet :</label>
+          <select id="sujet" name="sujet">
+            <option value="projet">Proposition de projet</option>
+            <option value="question">Question</option>
+          </select></p>
+
+          <p>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+          </p>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+
+    </main>
+    <hr>
+    <footer>
+      <p>&copy; 2026 Yasmine Ben Ali. Tous droits réservés.</p>
+      <a href="#home">Retour en haut</a>
+    </footer>
+    </div>
+  </body>
+</html>
